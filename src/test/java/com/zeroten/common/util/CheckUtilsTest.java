@@ -28,5 +28,12 @@ public class CheckUtilsTest {
         Assert.assertEquals(CheckUtils.equals("1",null),false);
     }
 
+    @Test
+    public void testIntegerequals() {
+        Assert.assertEquals(CheckUtils.equals(1,1),true);
+        Assert.assertEquals(CheckUtils.equals(1,2),false);
+        Assert.assertEquals(CheckUtils.equals(null,2),false);
+        Assert.assertEquals(CheckUtils.equals(1,null),false);
+    }
 
 }

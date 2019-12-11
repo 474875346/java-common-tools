@@ -28,4 +28,11 @@ public class CheckUtils {
         }
         return true;
     }
+
+    public static boolean equals(Integer n1, Integer n2) {
+        if (n1 == null || n2 == null || n1 != n2){
+            return false;
+        }
+        return true;
+    }
 }
