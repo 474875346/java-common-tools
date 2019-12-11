@@ -34,6 +34,7 @@ public class CheckUtilsTest {
         Assert.assertEquals(CheckUtils.equals(1,2),false);
         Assert.assertEquals(CheckUtils.equals(null,2),false);
         Assert.assertEquals(CheckUtils.equals(1,null),false);
+        Assert.assertEquals(CheckUtils.equals(128,128),true);
     }
 
 }
