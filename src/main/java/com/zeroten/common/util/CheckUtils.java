@@ -12,4 +12,13 @@ public class CheckUtils {
         }
         return true;
     }
+    /*
+    * 判断引⽤类型数组是否为空，为空或 null 则返回 true，否则返回 false。
+     * */
+    public  static  boolean  isEmpty(Object[] arr){
+        if (arr == null || arr.length == 0) {
+            return true;
+        }
+        return false;
+    }
 }
