@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="">
-=======
     <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="判断引⽤类型数组是否为空">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/CheckUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zeroten/common/util/CheckUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
->>>>>>> b512b00567978606e319260a9be3323d216fd9d6
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/OuterClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/ArrayUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/CheckUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zeroten/common/util/ArrayUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zeroten/common/util/CheckUtilsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +48,25 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="TestNG.ArrayUtilsTest.testsort">
+  <component name="RunManager" selected="Application.OuterClass">
+    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.OuterClass" />
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayUtilsTest.test循环" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
@@ -148,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OuterClass" />
         <item itemvalue="TestNG.ArrayUtilsTest.testsort" />
-        <item itemvalue="TestNG.ArrayUtilsTest.test数组拷贝" />
         <item itemvalue="TestNG.ArrayUtilsTest.test循环" />
         <item itemvalue="TestNG.CheckUtilsTest.testIntegerequals" />
         <item itemvalue="TestNG.CheckUtilsTest.testequals" />
@@ -179,13 +190,10 @@
       <option name="presentableId" value="Default" />
       <updated>1576034094859</updated>
       <workItem from="1576034097170" duration="529000" />
-<<<<<<< HEAD
       <workItem from="1576035698778" duration="3120000" />
-=======
       <workItem from="1576035698778" duration="2567000" />
       <workItem from="1576063098314" duration="3180000" />
       <workItem from="1576376277072" duration="6148000" />
->>>>>>> b512b00567978606e319260a9be3323d216fd9d6
     </task>
     <servers />
   </component>
@@ -201,26 +209,6 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="217" key="#Project_Structure/0.23.1920.1057@0.23.1920.1057" timestamp="1576036869357" />
-<<<<<<< HEAD
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1576047234620">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234620" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1576047234620">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234620" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1576047234619">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234619" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1576047234620">
-      <screen x="0" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234620" />
-    <state x="466" y="190" key="SettingsEditor" timestamp="1576045820609">
-      <screen x="0" y="23" width="1920" height="1057" />
-=======
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576384422413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,12 +253,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state x="466" y="164" key="SettingsEditor" timestamp="1576065393050">
-      <screen x="0" y="0" width="1920" height="1040" />
->>>>>>> b512b00567978606e319260a9be3323d216fd9d6
+    <state x="466" y="190" key="SettingsEditor" timestamp="1577245036780">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="466" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576065393050" />
-    <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1576045820609" />
+    <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1577245036780" />
     <state x="731" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576381521126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
