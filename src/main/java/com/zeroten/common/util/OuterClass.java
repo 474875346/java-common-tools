@@ -21,7 +21,27 @@ public class OuterClass {
     }
 
     public void printName(){
-        System.out.println();
+//        System.out.println();
+        String method = "printName";
+//        class LocalInnerClass {
+//            public void println(){
+//                System.out.println(method);
+//                System.out.println("我的外围类Name=" + OuterClass.this.name);
+//                System.out.println("我的外围类Index=" + index);
+//                System.out.println("⽅法名=" + method);
+//            }
+//        }
+//        new LocalInnerClass().println();
+        new PrintInterface(){
+
+            @Override
+            public void println() {
+                System.out.println(method);
+                System.out.println("我的外围类Name=" + OuterClass.this.name);
+                System.out.println("我的外围类Index=" + index);
+                System.out.println("⽅法名=" + method);
+            }
+        };
     }
 
     public class InnerClass {
