@@ -219,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1576384422413" />
-    <state x="513" y="98" key="CommitChangelistDialog2" timestamp="1577276347168">
+    <state x="513" y="98" key="CommitChangelistDialog2" timestamp="1577277825337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="513" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577276347168" />
+    <state x="513" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277825337" />
     <state width="1860" height="199" key="GridCell.Tab.0.bottom" timestamp="1577276203316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,6 +264,10 @@
     </state>
     <state x="466" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576065393050" />
     <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1577245036780" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577277836475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277836475" />
     <state x="731" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576381521126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
