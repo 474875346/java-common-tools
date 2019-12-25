@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="判断引⽤类型数组是否为空">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/OuterClass.java" afterDir="false" />
+    <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArraySequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/Selector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/InnerClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/ArrayUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/CheckUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zeroten/common/util/ArrayUtilsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zeroten/common/util/CheckUtilsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,7 +31,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Uos4xsBPd8sGQEtSgdsQpEGtRq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,7 +55,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.OuterClass">
+  <component name="RunManager" selected="Application.Outer">
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.Outer" />
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.OuterClass" />
       <module name="java-common-tools" />
@@ -122,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUtilsTest.testIntegerequals" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InnerClassTest.testInnerClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
@@ -131,26 +145,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
-      <option name="METHOD_NAME" value="testIntegerequals" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckUtilsTest.testequals" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-common-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.CheckUtilsTest" />
-      <option name="METHOD_NAME" value="testequals" />
+      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.InnerClassTest" />
+      <option name="METHOD_NAME" value="testInnerClass" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer" />
+        <item itemvalue="TestNG.InnerClassTest.testInnerClass" />
         <item itemvalue="Application.OuterClass" />
         <item itemvalue="TestNG.ArrayUtilsTest.testsort" />
         <item itemvalue="TestNG.ArrayUtilsTest.test循环" />
-        <item itemvalue="TestNG.CheckUtilsTest.testIntegerequals" />
-        <item itemvalue="TestNG.CheckUtilsTest.testequals" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +193,21 @@
       <workItem from="1576376277072" duration="6148000" />
       <workItem from="1577275477663" duration="856000" />
     </task>
+    <task id="LOCAL-00001" summary="合并冲突">
+      <created>1577277825363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577277825363</updated>
+    </task>
+    <task id="LOCAL-00002" summary="合并冲突">
+      <created>1577277871414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577277871414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,44 +215,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="判断引⽤类型数组是否为空" />
-    <option name="LAST_COMMIT_MESSAGE" value="判断引⽤类型数组是否为空" />
+    <MESSAGE value="合并冲突" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并冲突" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="217" key="#Project_Structure" timestamp="1576036869357">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="217" key="#Project_Structure/0.23.1920.1057@0.23.1920.1057" timestamp="1576036869357" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577276146384">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577279425339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577276146384" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577279425339" />
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576384422413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1576384422413" />
-    <state x="513" y="98" key="CommitChangelistDialog2" timestamp="1577277825337">
+    <state x="513" y="98" key="CommitChangelistDialog2" timestamp="1577277870466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="513" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277825337" />
-    <state width="1860" height="199" key="GridCell.Tab.0.bottom" timestamp="1577276203316">
+    <state x="513" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277870466" />
+    <state width="1860" height="352" key="GridCell.Tab.0.bottom" timestamp="1577279565949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577276203316" />
+    <state width="1860" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161569" />
-    <state width="1860" height="199" key="GridCell.Tab.0.center" timestamp="1577276203316">
+    <state width="1860" height="352" key="GridCell.Tab.0.center" timestamp="1577279565949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577276203316" />
+    <state width="1860" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161568" />
-    <state width="1860" height="199" key="GridCell.Tab.0.left" timestamp="1577276203316">
+    <state width="1860" height="352" key="GridCell.Tab.0.left" timestamp="1577279565949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577276203316" />
+    <state width="1860" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161568" />
-    <state width="1860" height="199" key="GridCell.Tab.0.right" timestamp="1577276203316">
+    <state width="1860" height="352" key="GridCell.Tab.0.right" timestamp="1577279565949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577276203316" />
+    <state width="1860" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161569" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1576385367518">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -264,10 +276,10 @@
     </state>
     <state x="466" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576065393050" />
     <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1577245036780" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577277836475">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577277886699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277836475" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277886699" />
     <state x="731" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576381521126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
