@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zeroten/common/util/CheckUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zeroten/common/util/CheckUtilsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/CheckUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/CheckUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576034094859</updated>
       <workItem from="1576034097170" duration="529000" />
-      <workItem from="1576035698778" duration="2567000" />
+      <workItem from="1576035698778" duration="3120000" />
     </task>
     <servers />
   </component>
@@ -112,22 +107,22 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="217" key="#Project_Structure/0.23.1920.1057@0.23.1920.1057" timestamp="1576036869357" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1576046161569">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1576047234620">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161569" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1576046161568">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234620" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1576047234620">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161568" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1576046161568">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234620" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1576047234619">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161568" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1576046161569">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234619" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1576047234620">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161569" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1576047234620" />
     <state x="466" y="190" key="SettingsEditor" timestamp="1576045820609">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
