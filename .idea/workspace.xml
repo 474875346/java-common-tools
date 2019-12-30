@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArraySequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/Selector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zeroten/common/util/InnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoCgligProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/proxy/demo/UserDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +49,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,9 +61,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
-  <component name="RunManager" selected="Application.Outer">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.proxy.demo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserDaoTest">
     <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.Outer" />
       <module name="java-common-tools" />
@@ -69,33 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.OuterClass" />
+    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="PATTERN" value="com.proxy.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayUtilsTest.test循环" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="java-common-tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
-      <option name="METHOD_NAME" value="test循环" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,17 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayUtilsTest.testsort" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.DaoSaveCglib" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="PATTERN" value="com.proxy.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.ArrayUtilsTest" />
-      <option name="METHOD_NAME" value="testsort" />
+      <option name="PACKAGE_NAME" value="com.proxy.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
+      <option name="METHOD_NAME" value="DaoSaveCglib" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,17 +134,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassTest.testInnerClass" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.DaoSaveDynamicProxy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zeroten.common.util.*" />
+          <option name="PATTERN" value="com.proxy.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zeroten.common.util" />
-      <option name="MAIN_CLASS_NAME" value="com.zeroten.common.util.InnerClassTest" />
-      <option name="METHOD_NAME" value="testInnerClass" />
+      <option name="PACKAGE_NAME" value="com.proxy.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
+      <option name="METHOD_NAME" value="DaoSaveDynamicProxy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.DaoSaveProxy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.proxy.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.proxy.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
+      <option name="METHOD_NAME" value="DaoSaveProxy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserDaoTest" />
+        <item itemvalue="TestNG.UserDaoTest.DaoSaveCglib" />
+        <item itemvalue="TestNG.UserDaoTest.DaoSaveDynamicProxy" />
+        <item itemvalue="TestNG.UserDaoTest.DaoSaveProxy" />
         <item itemvalue="Application.Outer" />
-        <item itemvalue="TestNG.InnerClassTest.testInnerClass" />
-        <item itemvalue="Application.OuterClass" />
-        <item itemvalue="TestNG.ArrayUtilsTest.testsort" />
-        <item itemvalue="TestNG.ArrayUtilsTest.test循环" />
       </list>
     </recent_temporary>
   </component>
@@ -223,10 +239,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="217" key="#Project_Structure/0.23.1920.1057@0.23.1920.1057" timestamp="1576036869357" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1577279425339">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1577677451870">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577279425339" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1577677451870" />
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576384422413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,55 +252,60 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="513" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277870466" />
-    <state width="1860" height="352" key="GridCell.Tab.0.bottom" timestamp="1577279565949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="387" key="GridCell.Tab.0.bottom" timestamp="1577686204905">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161569" />
-    <state width="1860" height="352" key="GridCell.Tab.0.center" timestamp="1577279565949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="387" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1577686204905" />
+    <state width="1878" height="387" key="GridCell.Tab.0.center" timestamp="1577686204905">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161568" />
-    <state width="1860" height="352" key="GridCell.Tab.0.left" timestamp="1577279565949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="387" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1577686204905" />
+    <state width="1878" height="387" key="GridCell.Tab.0.left" timestamp="1577686204904">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161568" />
-    <state width="1860" height="352" key="GridCell.Tab.0.right" timestamp="1577279565949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="387" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1577686204904" />
+    <state width="1878" height="387" key="GridCell.Tab.0.right" timestamp="1577686204905">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1576046161569" />
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1576385367518">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="387" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1577686204905" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1577676531505">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="1876" height="342" key="GridCell.Tab.1.center" timestamp="1576385367518">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1577676531505" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1577676531504">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="1876" height="342" key="GridCell.Tab.1.left" timestamp="1576385367518">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1577676531504" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1577676531504">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="1876" height="342" key="GridCell.Tab.1.right" timestamp="1576385367518">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1577676531504" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1577676531504">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state x="466" y="190" key="SettingsEditor" timestamp="1577245036780">
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1577676531504" />
+    <state x="466" y="190" key="SettingsEditor" timestamp="1577686172200">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="466" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576065393050" />
-    <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1577245036780" />
+    <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1577686172200" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1577277886699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277886699" />
-    <state x="731" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576381521126">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="731" y="248" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577673382409">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="731" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576381521126" />
+    <state x="731" y="248" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1577673382409" />
     <state x="636" y="124" width="647" height="792" key="find.popup" timestamp="1577275782082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -292,6 +314,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="146" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576064383132" />
+    <state x="625" y="256" key="run.anything.popup" timestamp="1577674557709">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="256" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1577674557709" />
     <state x="712" y="341" key="zielu.gittoolbox.ui.GitPushTagsDialog" timestamp="1576065222416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
