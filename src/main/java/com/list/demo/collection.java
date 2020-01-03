@@ -133,11 +133,9 @@ public class collection {
         for (int i = 0; i < size; i++) {
             for (int j = i; j > 0; j--) {
                 if (list.get(j) < list.get(j - 1)) {
-                    int a = list.get(j);
-                    list.add(j, list.get(j - 1));
-                    list.remove(j + 1);
-                    list.add(j - 1, a);
-                    list.remove(j);
+                    int tmp = list.get(j);
+                    list.set(j,list.get(j-1));
+                    list.set(j-1,tmp);
                 }
             }
 
@@ -160,15 +158,18 @@ public class collection {
                 }
             }
             int tmp = list.get(i);
-            list.add(i, list.get(minIdx));
-            list.remove(i + 1);
-            list.add(minIdx, tmp);
-            list.remove(minIdx + 1);
+            list.set(i,list.get(minIdx));
+            list.set(minIdx,tmp);
         }
         System.out.println(list);
     }
 
     public static void main(String[] args) {
+        System.out.println("冒泡排序:");
+        BubbleSort();
+        System.out.println("插入排序:");
+        InsertionSort();
+        System.out.println("选择排序:");
         SelectionSort();
     }
 
