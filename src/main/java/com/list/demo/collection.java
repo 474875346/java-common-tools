@@ -134,12 +134,10 @@ public class collection {
             for (int j = i; j > 0; j--) {
                 if (list.get(j) < list.get(j - 1)) {
                     int tmp = list.get(j);
-                    list.set(j,list.get(j-1));
-                    list.set(j-1,tmp);
+                    list.set(j, list.get(j - 1));
+                    list.set(j - 1, tmp);
                 }
             }
-
-
         }
         System.out.println(list);
     }
@@ -158,20 +156,12 @@ public class collection {
                 }
             }
             int tmp = list.get(i);
-            list.set(i,list.get(minIdx));
-            list.set(minIdx,tmp);
+            list.set(i, list.get(minIdx));
+            list.set(minIdx, tmp);
         }
         System.out.println(list);
     }
 
-    public static void main(String[] args) {
-        System.out.println("冒泡排序:");
-        BubbleSort();
-        System.out.println("插入排序:");
-        InsertionSort();
-        System.out.println("选择排序:");
-        SelectionSort();
-    }
 
     public static void RandomList(List list) {
         for (int i = 0; i < 10; i++) {

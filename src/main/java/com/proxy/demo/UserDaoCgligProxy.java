@@ -10,20 +10,21 @@ public class UserDaoCgligProxy implements MethodInterceptor {
 
     private Object target;
 
-    public  UserDaoCgligProxy(Object object) {
+    public UserDaoCgligProxy(Object object) {
         this.target = object;
     }
-    private boolean checkSaveUserParam(String methodName, Object[] args){
 
-        if (!(target instanceof UserDaoCglib)){
+    private boolean checkSaveUserParam(String methodName, Object[] args) {
+
+        if (!(target instanceof UserDaoCglib)) {
             System.out.println("协议类型不对");
             return false;
         }
-        if (!(methodName.equals("Save"))){
+        if (!(methodName.equals("Save"))) {
             System.out.println("调用方法不对");
             return false;
         }
-        if (args == null || args.length < 1 || !(args[0] instanceof User)){
+        if (args == null || args.length < 1 || !(args[0] instanceof User)) {
             System.out.println("传入参数不对");
             return false;
         }
@@ -32,14 +33,14 @@ public class UserDaoCgligProxy implements MethodInterceptor {
             System.out.println("name 为空，不保存 ");
             return false;
         }
-        if(user.getAge() == null || user.getAge()<0){
+        if (user.getAge() == null || user.getAge() < 0) {
             System.out.println("age 不在有效范围内0 ~ 200，不保存。 ");
             return false;
         }
         return true;
     }
 
-    public Object getProxyInstance(){
+    public Object getProxyInstance() {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(target.getClass());
         enhancer.setCallback(this);

@@ -45,7 +45,7 @@ public class UserDaoTest {
         proxy.Println();
     }
 
-
+    @Test
     public static void DaoSaveCglib() {
         UserDaoCglib daoCglib = new UserDaoCglib();
         User user = new User();
