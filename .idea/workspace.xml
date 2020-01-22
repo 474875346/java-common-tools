@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2f981f8-c0a5-4bff-8ca8-b373736776d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/list/demo/collectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/map/demo/LRUTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/map/demo/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/map/demo/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/map/demo/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/map/demo/TreeMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/list/demo/ListSimpleUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/list/demo/MapSimpleUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/list/demo/SetSimpleUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/map/demo/LRUTestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/map/demo/QueueTestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/list/demo/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/list/demo/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/list/demo/collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/list/demo/collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoCgligProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proxy/demo/UserDaoCgligProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/proxy/demo/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/proxy/demo/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/list/demo/collectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/list/demo/collectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java-common-tools.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/list/demo/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/list/demo/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/list/demo/collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/list/demo/collection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -21,8 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -43,10 +58,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,10 +74,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.map.demo" />
       <recent name="com.list.demo" />
       <recent name="com.proxy.demo" />
     </key>
@@ -68,13 +86,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.collection">
-    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
+  <component name="RunManager" selected="Application.LRUTestTest">
+    <configuration name="LRUTestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map.demo.LRUTestTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.proxy.demo.*" />
+          <option name="PATTERN" value="com.map.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.list.demo.collection" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map.demo.MapTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.list.demo.*" />
+          <option name="PATTERN" value="com.map.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,67 +113,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.DaoSaveCglib" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTestTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map.demo.QueueTestTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.proxy.demo.*" />
+          <option name="PATTERN" value="com.map.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.proxy.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
-      <option name="METHOD_NAME" value="DaoSaveCglib" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.DaoSaveDynamicProxy" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map.demo.SetTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.proxy.demo.*" />
+          <option name="PATTERN" value="com.map.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.proxy.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
-      <option name="METHOD_NAME" value="DaoSaveDynamicProxy" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.DaoSaveProxy" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.map.demo.TreeMapTest" />
       <module name="java-common-tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.proxy.demo.*" />
+          <option name="PATTERN" value="com.map.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.proxy.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.proxy.demo.UserDaoTest" />
-      <option name="METHOD_NAME" value="DaoSaveProxy" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.collection" />
-        <item itemvalue="TestNG.UserDaoTest.DaoSaveCglib" />
-        <item itemvalue="Application.UserDaoTest" />
-        <item itemvalue="TestNG.UserDaoTest.DaoSaveDynamicProxy" />
-        <item itemvalue="TestNG.UserDaoTest.DaoSaveProxy" />
+        <item itemvalue="Application.LRUTestTest" />
+        <item itemvalue="Application.QueueTestTest" />
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.SetTest" />
+        <item itemvalue="Application.TreeMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +191,20 @@
       <workItem from="1576376277072" duration="6148000" />
       <workItem from="1577275477663" duration="856000" />
       <workItem from="1578016171880" duration="13051000" />
-      <workItem from="1578291521527" duration="1305000" />
+      <workItem from="1578291521527" duration="4195000" />
+      <workItem from="1578637090430" duration="1823000" />
+      <workItem from="1578903018830" duration="2068000" />
+      <workItem from="1579068506023" duration="471000" />
+      <workItem from="1579486336762" duration="2547000" />
+      <workItem from="1579489443300" duration="361000" />
+      <workItem from="1579490129840" duration="6000" />
+      <workItem from="1579491592619" duration="48000" />
+      <workItem from="1579492361997" duration="538000" />
+      <workItem from="1579492985396" duration="1850000" />
+      <workItem from="1579501508735" duration="6086000" />
+      <workItem from="1579570999798" duration="13972000" />
+      <workItem from="1579594054628" duration="3493000" />
+      <workItem from="1579655651437" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="合并冲突">
       <created>1577277825363</created>
@@ -225,7 +241,35 @@
       <option name="project" value="LOCAL" />
       <updated>1578037316469</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="冒泡排序/插入排序/选择排序修改">
+      <created>1578292949072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578292949072</updated>
+    </task>
+    <task id="LOCAL-00007" summary="冒泡排序/插入排序/选择排序修改">
+      <created>1578292963613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578292963613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="冒泡排序/插入排序/选择排序修改">
+      <created>1578292973554</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578292973554</updated>
+    </task>
+    <task id="LOCAL-00009" summary="冒泡排序/插入排序/选择排序修改">
+      <created>1578292983496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578292983496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +280,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -255,75 +301,80 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="560" y="217" key="#Project_Structure/0.23.1920.1057@0.23.1920.1057" timestamp="1576036869357" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1578018182766">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1579596481479">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577279425339" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1578018182766" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1579596481479" />
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576384422413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="377" width="441" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1576384422413" />
-    <state x="513" y="123" key="CommitChangelistDialog2" timestamp="1578292973117">
+    <state x="513" y="123" key="CommitChangelistDialog2" timestamp="1578292983155">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="513" y="98" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277870466" />
-    <state x="513" y="123" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1578292973117" />
-    <state width="1878" height="387" key="GridCell.Tab.0.bottom" timestamp="1578292864601">
+    <state x="513" y="123" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1578292983155" />
+    <state width="1878" height="332" key="GridCell.Tab.0.bottom" timestamp="1579658462423">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="387" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1578292864601" />
-    <state width="1878" height="387" key="GridCell.Tab.0.center" timestamp="1578292864601">
+    <state width="1878" height="369" key="GridCell.Tab.0.bottom/0.23.1920.1017@0.23.1920.1017" timestamp="1578640306521" />
+    <state width="1878" height="332" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1579658462423" />
+    <state width="1878" height="332" key="GridCell.Tab.0.center" timestamp="1579658462422">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="387" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1578292864601" />
-    <state width="1878" height="387" key="GridCell.Tab.0.left" timestamp="1578292864600">
+    <state width="1878" height="369" key="GridCell.Tab.0.center/0.23.1920.1017@0.23.1920.1017" timestamp="1578640306520" />
+    <state width="1878" height="332" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1579658462422" />
+    <state width="1878" height="332" key="GridCell.Tab.0.left" timestamp="1579658462421">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="387" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1578292864600" />
-    <state width="1878" height="387" key="GridCell.Tab.0.right" timestamp="1578292864601">
+    <state width="1878" height="369" key="GridCell.Tab.0.left/0.23.1920.1017@0.23.1920.1017" timestamp="1578640306520" />
+    <state width="1878" height="332" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1579658462421" />
+    <state width="1878" height="332" key="GridCell.Tab.0.right" timestamp="1579658462422">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1860" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577279565949" />
-    <state width="1878" height="387" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1578292864601" />
-    <state width="939" height="357" key="GridCell.Tab.1.bottom" timestamp="1578038437349">
+    <state width="1878" height="369" key="GridCell.Tab.0.right/0.23.1920.1017@0.23.1920.1017" timestamp="1578640306520" />
+    <state width="1878" height="332" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1579658462422" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1579593953847">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="939" height="357" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1578038437349" />
-    <state width="939" height="357" key="GridCell.Tab.1.center" timestamp="1578038437349">
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1579593953847" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1579593953846">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="939" height="357" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1578038437349" />
-    <state width="939" height="357" key="GridCell.Tab.1.left" timestamp="1578038437349">
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1579593953846" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1579593953846">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="939" height="357" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1578038437349" />
-    <state width="939" height="357" key="GridCell.Tab.1.right" timestamp="1578038437349">
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1579593953846" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1579593953846">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576385367518" />
-    <state width="939" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1578038437349" />
-    <state x="466" y="190" key="SettingsEditor" timestamp="1577686172200">
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1579593953846" />
+    <state x="466" y="190" key="SettingsEditor" timestamp="1579655978931">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="466" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576065393050" />
-    <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1577686172200" />
-    <state x="552" y="279" key="Vcs.Push.Dialog.v2" timestamp="1578037322715">
+    <state x="466" y="184" key="SettingsEditor/0.23.1920.1017@0.23.1920.1017" timestamp="1578638065739" />
+    <state x="466" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1579655978931" />
+    <state x="552" y="279" key="Vcs.Push.Dialog.v2" timestamp="1578292999405">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577277886699" />
-    <state x="552" y="279" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1578037322715" />
-    <state x="731" y="248" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578292856289">
+    <state x="552" y="279" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1578292999405" />
+    <state x="731" y="248" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579657583541">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="731" y="221" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576381521126" />
-    <state x="731" y="248" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1578292856289" />
+    <state x="731" y="248" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1579657583541" />
     <state x="636" y="124" width="647" height="792" key="find.popup" timestamp="1577275782082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -332,14 +383,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="146" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576064383132" />
-    <state x="625" y="256" key="run.anything.popup" timestamp="1578022947832">
+    <state x="625" y="256" key="run.anything.popup" timestamp="1579590593205">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="625" y="256" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1578022947832" />
-    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1578023211061">
+    <state x="625" y="256" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1579590593205" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1579573801335">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1578023211061" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1579573801335" />
     <state x="712" y="341" key="zielu.gittoolbox.ui.GitPushTagsDialog" timestamp="1576065222416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
